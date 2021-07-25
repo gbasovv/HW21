@@ -8,5 +8,7 @@
 import UIKit
 
 class CollectionViewCell: UICollectionViewCell {
-    
+
+    @IBOutlet weak var userActionLbl: UILabel!
+
 }
